@@ -1,0 +1,5 @@
+INFO [12-06|09:49:16.341] Starting pprof server                    addr=http://0.0.0.0:9545/debug/pprof
+DEBUG[12-06|09:49:16.342] Sanitizing Go's GC trigger               percent=100
+INFO [12-06|09:49:16.342] Enabling metrics collection 
+INFO [12-06|09:49:16.342] Connecting to private tx manager using HTTP 
+Fatal: Error initialising Private Transaction Manager: unable to connect to private tx manager due to: unable to submit request (method:GET,path:/upcheck). Cause: Get "http://member3tessera:9101/upcheck": context deadline exceeded (Client.Timeout exceeded while awaiting headers)

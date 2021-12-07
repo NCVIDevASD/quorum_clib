@@ -1,0 +1,86 @@
+INFO [12-03|06:25:09.289] Starting pprof server                    addr=http://0.0.0.0:9545/debug/pprof
+DEBUG[12-03|06:25:09.289] Sanitizing Go's GC trigger               percent=100
+INFO [12-03|06:25:09.289] Enabling metrics collection 
+INFO [12-03|06:25:09.289] Running with private transaction manager disabled - quorum private transactions will not be supported 
+INFO [12-03|06:25:09.336] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [12-03|06:25:09.336] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+DEBUG[12-03|06:25:09.336] FS scan times                            list="33.564µs" set=843ns diff="1.071µs"
+WARN [12-03|06:25:09.336] Found deprecated node list file /data/static-nodes.json, please use the TOML config file instead. 
+INFO [12-03|06:25:09.337] Set global gas cap                       cap=25000000
+INFO [12-03|06:25:09.338] Running with private transaction manager disabled - quorum private transactions will not be supported 
+WARN [12-03|06:25:09.338] Sanitizing invalid miner gas price       provided=0 updated=0
+INFO [12-03|06:25:09.338] Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+INFO [12-03|06:25:09.338] Allocated cache and file handles         database=/data/geth/chaindata cache=768.00MiB handles=524288
+TRACE[12-03|06:25:09.464] Started watching keystore folder         path=/data/keystore
+DEBUG[12-03|06:25:09.999] Chain freezer table opened               database=/data/geth/chaindata/ancient table=diffs items=0 size=0.00B
+DEBUG[12-03|06:25:10.020] Chain freezer table opened               database=/data/geth/chaindata/ancient table=headers items=0 size=0.00B
+DEBUG[12-03|06:25:10.048] Chain freezer table opened               database=/data/geth/chaindata/ancient table=hashes  items=0 size=0.00B
+DEBUG[12-03|06:25:10.061] Chain freezer table opened               database=/data/geth/chaindata/ancient table=bodies  items=0 size=0.00B
+DEBUG[12-03|06:25:10.070] Chain freezer table opened               database=/data/geth/chaindata/ancient table=receipts items=0 size=0.00B
+INFO [12-03|06:25:10.070] Opened ancient database                  database=/data/geth/chaindata/ancient
+INFO [12-03|06:25:10.070] Writing default main-net genesis block 
+DEBUG[12-03|06:25:10.070] Current full block hash unavailable 
+DEBUG[12-03|06:25:10.403] Account Extra Data root                  hash="000000…000000"
+DEBUG[12-03|06:25:18.475] AccountExtraData root after trie commit  root="56e81f…63b421"
+INFO [12-03|06:25:22.092] Persisted trie from memory database      nodes=12356 size=1.78MiB time=3.617015535s gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [12-03|06:25:22.133] Initialised chain configuration          config="{ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000 Byzantium: 4370000 IsQuorum: false Constantinople: 7280000 TransactionSizeLimit: 64 MaxCodeSize: 0 Petersburg: 7280000 Istanbul: 9069000, Muir Glacier: 9200000 YOLO v2: <nil> PrivacyEnhancements: <nil> PrivacyPrecompile: <nil> Engine: ethash}"
+WARN [12-03|06:25:22.133] Ethash used in full fake mode 
+INFO [12-03|06:25:22.133] Initialising Ethereum protocol           name=eth versions="[65 64 63]" network=1337 dbversion=<nil>
+WARN [12-03|06:25:22.133] Upgrade blockchain database version      from=<nil> to=8
+DEBUG[12-03|06:25:22.226] Account Extra Data root                  hash="000000…000000"
+INFO [12-03|06:25:22.386] Loaded most recent local header          number=0 hash="d4e567…cb8fa3" td=17179869184 age=52y8mo4d
+INFO [12-03|06:25:22.406] Loaded most recent local full block      number=0 hash="d4e567…cb8fa3" td=17179869184 age=52y8mo4d
+INFO [12-03|06:25:22.406] Loaded most recent local fast block      number=0 hash="d4e567…cb8fa3" td=17179869184 age=52y8mo4d
+DEBUG[12-03|06:25:22.407] Account Extra Data root                  hash="000000…000000"
+DEBUG[12-03|06:25:22.407] Account Extra Data root                  hash="000000…000000"
+DEBUG[12-03|06:25:22.407] Account Extra Data root                  hash="000000…000000"
+DEBUG[12-03|06:25:22.407] Account Extra Data root                  hash="000000…000000"
+DEBUG[12-03|06:25:22.407] Reinjecting stale transactions           count=0
+INFO [12-03|06:25:22.407] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [12-03|06:25:22.407] permission-config.json file is missing. Smart-contract-based permission service will be disabled error="stat /data/permission-config.json: no such file or directory"
+INFO [12-03|06:25:22.407] No plugins to initialise 
+INFO [12-03|06:25:22.407] Starting peer-to-peer node               instance=Geth/node1-/v1.9.25-stable-919800f0(quorum-v21.10.0)/linux-amd64/go1.15.6
+DEBUG[12-03|06:25:22.481] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[12-03|06:25:22.481] Account Extra Data root                  hash="000000…000000"
+DEBUG[12-03|06:25:22.481] Account Extra Data root                  hash="000000…000000"
+TRACE[12-03|06:25:22.481] header data not found in ancient or level db hash="000000…000000"
+TRACE[12-03|06:25:22.703] Adding static node                       id=58e94810eeee14c2 ip=172.16.239.11 added=true
+TRACE[12-03|06:25:22.703] Starting p2p dial                        id=58e94810eeee14c2 ip=172.16.239.11 flag=staticdial
+DEBUG[12-03|06:25:22.704] TCP listener up                          addr=[::]:30303
+TRACE[12-03|06:25:22.704] Accepted connection                      addr=172.16.239.11:59296
+TRACE[12-03|06:25:22.704] Adding static node                       id=27059b2392ab7830 ip=172.16.239.12 added=true
+TRACE[12-03|06:25:22.704] Starting p2p dial                        id=27059b2392ab7830 ip=172.16.239.12 flag=staticdial
+TRACE[12-03|06:25:22.704] Adding static node                       id=2a2fe7f9e880372c ip=172.16.239.13 added=true
+TRACE[12-03|06:25:22.704] Starting p2p dial                        id=2a2fe7f9e880372c ip=172.16.239.13 flag=staticdial
+TRACE[12-03|06:25:22.705] Adding static node                       id=c8f776c1d83d4fdd ip=172.16.239.14 added=true
+TRACE[12-03|06:25:22.705] Starting p2p dial                        id=c8f776c1d83d4fdd ip=172.16.239.14 flag=staticdial
+TRACE[12-03|06:25:22.705] Adding static node                       id=133b4f32d7750cdf ip=172.16.239.15 added=true
+TRACE[12-03|06:25:22.705] Starting p2p dial                        id=133b4f32d7750cdf ip=172.16.239.15 flag=staticdial
+TRACE[12-03|06:25:22.705] Adding static node                       id=a1f75939c4a4d5c1 ip=172.16.239.16 added=true
+TRACE[12-03|06:25:22.705] Starting p2p dial                        id=a1f75939c4a4d5c1 ip=172.16.239.16 flag=staticdial
+TRACE[12-03|06:25:22.705] Adding static node                       id=77e699b8a5282fa3 ip=172.16.239.17 added=true
+TRACE[12-03|06:25:22.705] Starting p2p dial                        id=77e699b8a5282fa3 ip=172.16.239.17 flag=staticdial
+TRACE[12-03|06:25:22.705] Adding static node                       id=7bdd9cf0154c19f3 ip=172.16.239.18 added=true
+TRACE[12-03|06:25:22.705] Starting p2p dial                        id=7bdd9cf0154c19f3 ip=172.16.239.18 flag=staticdial
+TRACE[12-03|06:25:22.705] Adding static node                       id=2cf9bc96db66e713 ip=172.16.239.19 added=true
+TRACE[12-03|06:25:22.705] Starting p2p dial                        id=2cf9bc96db66e713 ip=172.16.239.19 flag=staticdial
+TRACE[12-03|06:25:22.844] Dial error                               id=7bdd9cf0154c19f3 addr=172.16.239.18:30303             conn=staticdial err="connect: connection refused"
+TRACE[12-03|06:25:22.844] Dial error                               id=a1f75939c4a4d5c1 addr=172.16.239.16:30303             conn=staticdial err="connect: connection refused"
+TRACE[12-03|06:25:22.844] Dial error                               id=77e699b8a5282fa3 addr=172.16.239.17:30303             conn=staticdial err="connect: connection refused"
+TRACE[12-03|06:25:22.844] Dial error                               id=c8f776c1d83d4fdd addr=172.16.239.14:30303             conn=staticdial err="connect: connection refused"
+TRACE[12-03|06:25:22.844] Dial error                               id=133b4f32d7750cdf addr=172.16.239.15:30303             conn=staticdial err="connect: connection refused"
+TRACE[12-03|06:25:22.845] Dial error                               id=27059b2392ab7830 addr=172.16.239.12:30303             conn=staticdial err="connect: connection refused"
+TRACE[12-03|06:25:22.845] Dial error                               id=2a2fe7f9e880372c addr=172.16.239.13:30303             conn=staticdial err="connect: connection refused"
+DEBUG[12-03|06:25:22.846] IPCs registered                          namespaces=admin,debug,web3,eth,txpool,personal,ethash,miner,net
+INFO [12-03|06:25:22.926] IPC endpoint opened                      url=/data/geth.ipc isMultitenant=false
+INFO [12-03|06:25:22.926] Security Plugin is not enabled 
+ERROR[12-03|06:25:22.926] Unavailable modules in HTTP API list     unavailable="[db shh quorum istanbul qbft]" available="[admin debug web3 eth txpool personal ethash miner net]"
+INFO [12-03|06:25:23.005] New local node record                    seq=1 id=0260f67101a51798 ip=127.0.0.1     udp=0 tcp=30303
+INFO [12-03|06:25:23.005] Started P2P networking                   self="enode://dd686ced1a5f981dfa33d77a2527369c58021c01fb1b18ab12de52f15924ad3a4b16d48fa25ae741bf7990e0d8c70c62b5da5ef4297a287402d79ddbff51be85@127.0.0.1:30303?discport=0"
+ERROR[12-03|06:25:23.005] Unavailable modules in HTTP API list     unavailable="[db shh quorum istanbul qbft]" available="[admin debug web3 eth txpool personal ethash miner net]"
+DEBUG[12-03|06:25:23.006] Allowed origin(s) for WS RPC interface [*] 
+INFO [12-03|06:25:23.006] Security: TLS not enabled                endpoint=0.0.0.0:8545 reason="no TLSConfigurationSource found"
+INFO [12-03|06:25:23.006] HTTP server started                      endpoint=[::]:8545    cors=* vhosts=* isTls=false
+INFO [12-03|06:25:23.006] Security: TLS not enabled                endpoint=0.0.0.0:8546 reason="no TLSConfigurationSource found"
+INFO [12-03|06:25:23.006] WebSocket enabled                        url=ws://[::]:8546
+Fatal: Failed to unlock account ed9d02e382b34818e88b88a309c7fe71e65f419d (no key for given address or file)
